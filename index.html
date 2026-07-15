@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+    <title>Acordo Particular de Saúde Financeira</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.2.0/dist/signature_pad.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="wrap">
+
+<div class="status">
+
+🟢 ACORDO EM VIGOR
+
+</div>
+
+<div class="box">
+
+<h1>
+
+ACORDO PARTICULAR
+
+<br>
+
+DE SAÚDE FINANCEIRA
+
+</h1>
+
+<p class="sub">
+
+Celebrado entre
+
+<strong>Victor</strong>
+
+e
+
+<strong>Gabrielly</strong>
+
+</p>
+
+<hr>
+
+<h2>
+
+📄 Das Partes
+
+</h2>
+
+<p>
+
+O presente acordo é celebrado entre Victor e Gabrielly,
+
+com o objetivo de manter uma vida financeira organizada,
+
+equilibrada e transparente.
+
+</p>
+
+<p>
+
+Este documento foi elaborado em comum acordo,
+
+visando preservar o planejamento financeiro do casal,
+
+permitindo a realização de sonhos,
+
+objetivos futuros e uma boa reserva financeira.
+
+</p>
+
+<div class="status">
+
+🐈 Testemunha Oficial
+
+<strong>
+
+Calleri
+
+</strong>
+
+</div>
+
+<hr>
+
+<h2>
+
+💳 Cláusulas Contratuais
+
+</h2>
+
+<p>
+
+<strong>CLÁUSULA I</strong>
+
+<br><br>
+
+O cartão com vencimento no dia
+
+<strong>20</strong>
+
+não poderá ultrapassar
+
+<strong>R$ 1.300,00</strong>.
+
+</p>
+
+<p>
+
+<strong>CLÁUSULA II</strong>
+
+<br><br>
+
+O cartão de Victor,
+
+com vencimento no dia
+
+<strong>05</strong>,
+
+não poderá ultrapassar
+
+<strong>R$ 300,00</strong>.
+
+</p>
+
+<p>
+
+<strong>CLÁUSULA III</strong>
+
+<br><br>
+
+O cartão de Gabrielly,
+
+com vencimento no dia
+
+<strong>10</strong>,
+
+não poderá ultrapassar
+
+<strong>R$ 700,00</strong>.
+
+</p>
+
+<p>
+
+<strong>CLÁUSULA IV</strong>
+
+<br><br>
+
+A partir de
+
+<strong>10/08/2026</strong>
+
+o casal compromete-se a guardar
+
+<strong>R$ 500,00</strong>
+
+mensalmente,
+
+destinados à construção da reserva financeira do casal.
+
+</p>
+
+<p>
+
+<strong>CLÁUSULA V</strong>
+
+<br><br>
+
+Compras que ultrapassem os limites acima deverão ser comunicadas e aprovadas previamente entre as partes.
+
+</p>
+
+<p>
+
+<strong>CLÁUSULA VI</strong>
+
+<br><br>
+
+Este acordo poderá ser alterado a qualquer momento,
+
+desde que exista concordância entre Victor e Gabrielly.
+
+</p>
+
+<hr>
+
+<!-- ========================================= -->
+<!-- ASSINATURA -->
+<!-- ========================================= -->
+
+<h2>✍ Assinatura das Partes</h2>
+
+<p>
+
+Ao assinar este documento, a parte declara que leu todas as cláusulas,
+compreendeu seu conteúdo e concorda em cumprir este acordo de boa-fé.
+
+</p>
+
+<label class="agree">
+
+<input type="checkbox" id="agree">
+
+Declaro que li todas as cláusulas e concordo integralmente com este acordo.
+
+</label>
+
+<div class="signature-box">
+
+<canvas id="sig"></canvas>
+
+<p class="signature-help">
+
+Assine acima utilizando o dedo (celular), caneta digital ou mouse.
+
+</p>
+
+</div>
+
+<div class="btns">
+
+<button id="clear">
+
+🧹 Limpar assinatura
+
+</button>
+
+<button id="ok">
+
+✔ Aceito e Assino
+
+</button>
+
+<button id="no">
+
+❌ Não aceito
+
+</button>
+
+</div>
+
+<hr>
+
+<!-- ========================================= -->
+<!-- REVISÃO -->
+<!-- ========================================= -->
+
+<h2>📨 Solicitação de Revisão Contratual</h2>
+
+<p>
+
+Caso alguma cláusula precise ser alterada,
+preencha a solicitação abaixo.
+Ela será encaminhada para análise do outro contratante.
+
+</p>
+
+<textarea
+id="sug"
+placeholder="Descreva aqui sua sugestão para alteração deste acordo...">
+</textarea>
+
+<button id="send">
+
+📤 Encaminhar Sugestão
+
+</button>
+
+<div id="msg"></div>
+
+<hr>
+
+<!-- ========================================= -->
+<!-- OBSERVAÇÃO -->
+<!-- ========================================= -->
+
+<h2>📌 Observações</h2>
+
+<p>
+
+Este acordo foi elaborado exclusivamente para fins de organização
+financeira do casal, promovendo diálogo,
+planejamento e responsabilidade mútua.
+
+</p>
+
+<p>
+
+Quaisquer alterações deverão ocorrer apenas mediante consenso entre
+Victor e Gabrielly.
+
+</p>
+
+<p>
+
+A testemunha oficial deste documento é o Sr.
+
+<strong>Calleri 🐈</strong>,
+
+que acompanhará atentamente toda e qualquer tentativa de descumprimento
+das cláusulas aqui estabelecidas.
+
+</p>
+
+<hr>
+
+<footer>
+
+<p>
+
+<strong>Documento Particular de Saúde Financeira</strong>
+
+</p>
+
+<p>
+
+Versão 1.0
+
+</p>
+
+<p>
+
+Status:
+
+<strong>🟢 Em vigor</strong>
+
+</p>
+
+<p>
+
+Victor • Gabrielly • Testemunha Oficial: Calleri 🐈
+
+</p>
+
+<p style="margin-top:20px;font-size:.85rem;color:#888;">
+
+"O verdadeiro patrimônio de um casal é construído com diálogo,
+respeito e planejamento."
+
+</p>
+
+</footer>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+<!-- ========================================= -->
+<!-- DISPOSIÇÕES GERAIS -->
+<!-- ========================================= -->
+
+<section class="contract-section">
+
+    <h2>📜 Disposições Gerais</h2>
+
+    <div class="info-card">
+
+        <h3>Validade</h3>
+
+        <p>
+
+            Este acordo entra em vigor imediatamente após a assinatura das
+            partes e permanecerá válido até que ambos decidam revisá-lo.
+
+        </p>
+
+    </div>
+
+    <div class="info-card">
+
+        <h3>Objetivo</h3>
+
+        <p>
+
+            O presente documento tem como finalidade incentivar o diálogo,
+            o planejamento financeiro e a construção de uma vida financeira
+            saudável para o casal.
+
+        </p>
+
+    </div>
+
+    <div class="info-card">
+
+        <h3>Reserva Financeira</h3>
+
+        <p>
+
+            A reserva mensal de
+            <strong>R$ 500,00</strong>
+            representa um compromisso com os sonhos do casal e deverá possuir
+            prioridade sobre compras por impulso.
+
+        </p>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section class="contract-section">
+
+    <h2>🐈 Testemunha Oficial</h2>
+
+    <div class="calleri-card">
+
+        <div class="cat">
+
+            🐈
+
+        </div>
+
+        <div>
+
+            <h3>Calleri</h3>
+
+            <p>
+
+                Nomeado oficialmente como Fiscal Geral deste acordo.
+
+            </p>
+
+            <p>
+
+                Toda tentativa de burlar qualquer cláusula será imediatamente
+                comunicada ao Departamento Felino de Fiscalização Financeira.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section class="contract-section">
+
+    <h2>⚖ Declaração Final</h2>
+
+    <p>
+
+        As partes declaram que este documento foi elaborado de forma livre,
+        espontânea e de comum acordo.
+
+    </p>
+
+    <p>
+
+        O objetivo principal não é restringir gastos,
+        mas incentivar responsabilidade financeira,
+        transparência e respeito às metas estabelecidas pelo casal.
+
+    </p>
+
+</section>
+
+<hr>
+
+<section class="contract-section">
+
+    <h2>📋 Resumo do Acordo</h2>
+
+    <table class="summary-table">
+
+        <tr>
+
+            <td>Cartão Dia <strong>20</strong></td>
+
+            <td><strong>R$ 1.300,00</strong></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Cartão Victor (Dia <strong>05</strong>)</td>
+
+            <td><strong>R$ 300,00</strong></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Cartão Gabrielly (Dia <strong>10</strong>)</td>
+
+            <td><strong>R$ 700,00</strong></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Reserva Mensal</td>
+
+            <td><strong>R$ 500,00</strong></td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+<hr>
+
+<section class="contract-section">
+
+<h2>😂 Cláusulas Complementares</h2>
+
+<div class="info-card">
+
+<p>
+
+Caso alguma compra ultrapasse o limite estabelecido,
+fica automaticamente convocada uma reunião extraordinária
+na cozinha da residência para negociação amigável.
+
+</p>
+
+</div>
+
+<div class="info-card">
+
+<p>
+
+Em caso de dúvida sobre a necessidade de uma compra,
+a pergunta oficial será:
+
+<strong>
+
+"Eu realmente preciso disso ou só achei bonito?"
+
+</strong>
+
+</p>
+
+</div>
+
+<div class="info-card">
+
+<p>
+
+Qualquer tentativa de convencer Calleri a aprovar uma compra
+mediante petiscos será considerada conflito de interesses.
+
+</p>
+
+</div>
+
+</section>
+
